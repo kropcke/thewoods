@@ -3,7 +3,11 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 15
+=======
+  serializedVersion: 14
+>>>>>>> dcd54619b1eea1f15a610ef25de094ab7a3a57cc
   productGUID: a674e18880b09584cb525ce82046bfbd
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -91,7 +95,12 @@ PlayerSettings:
   visibleInBackground: 1
   allowFullscreenSwitch: 1
   graphicsJobMode: 0
+<<<<<<< HEAD
   fullscreenMode: 1
+=======
+  macFullscreenMode: 2
+  d3d11FullscreenMode: 1
+>>>>>>> dcd54619b1eea1f15a610ef25de094ab7a3a57cc
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -138,7 +147,10 @@ PlayerSettings:
     hololens:
       depthFormat: 1
       depthBufferSharingEnabled: 0
+<<<<<<< HEAD
     enable360StereoCapture: 0
+=======
+>>>>>>> dcd54619b1eea1f15a610ef25de094ab7a3a57cc
     oculus:
       sharedDepthBuffer: 0
       dashSupport: 0
@@ -237,12 +249,17 @@ PlayerSettings:
   iOSManualSigningProvisioningProfileType: 0
   tvOSManualSigningProvisioningProfileType: 0
   appleEnableAutomaticSigning: 0
+<<<<<<< HEAD
   iOSRequireARKit: 0
   appleEnableProMotion: 0
   clonedFromGUID: 00000000000000000000000000000000
   templatePackageId: 
   templateDefaultScene: 
   AndroidTargetArchitectures: 5
+=======
+  clonedFromGUID: 00000000000000000000000000000000
+  AndroidTargetDevice: 0
+>>>>>>> dcd54619b1eea1f15a610ef25de094ab7a3a57cc
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
@@ -384,6 +401,27 @@ PlayerSettings:
     m_EncodingQuality: 1
   - m_BuildTarget: PS4
     m_EncodingQuality: 1
+<<<<<<< HEAD
+=======
+  wiiUTitleID: 0005000011000000
+  wiiUGroupID: 00010000
+  wiiUCommonSaveSize: 4096
+  wiiUAccountSaveSize: 2048
+  wiiUOlvAccessKey: 0
+  wiiUTinCode: 0
+  wiiUJoinGameId: 0
+  wiiUJoinGameModeMask: 0000000000000000
+  wiiUCommonBossSize: 0
+  wiiUAccountBossSize: 0
+  wiiUAddOnUniqueIDs: []
+  wiiUMainThreadStackSize: 3072
+  wiiULoaderThreadStackSize: 1024
+  wiiUSystemHeapSize: 128
+  wiiUTVStartupScreen: {fileID: 0}
+  wiiUGamePadStartupScreen: {fileID: 0}
+  wiiUDrcBufferDisabled: 0
+  wiiUProfilerLibPath: 
+>>>>>>> dcd54619b1eea1f15a610ef25de094ab7a3a57cc
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
