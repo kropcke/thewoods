@@ -9,9 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c37f7746917f4760aa00e7ff7fd81dc, type: 3}
-  m_Name: ARImagesSet_UnityLogo
+  m_Name: ARImagesSet
   m_EditorClassIdentifier: 
-  resourceGroupName: AR Rezources
+  resourceGroupName: AR Resources
   referenceImages:
   - {fileID: 11400000, guid: 9d6cedfb4c48647ca9007fb8cb8aa6b0, type: 2}
   - {fileID: 11400000, guid: fa9c5deee83494083beea0977b5302c2, type: 2}
+  - {fileID: 11400000, guid: a22a9dd55689d4962acffa0f0ce1dbda, type: 2}
