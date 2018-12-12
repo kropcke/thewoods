@@ -11,33 +11,37 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/scene_001.unity
     guid: 8a154f649199f4880a40f1a2bf745e21
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/scene_002.unity
     guid: ecc0ed077459a4a7aafa361772ae5b34
   - enabled: 0
-    path: Assets/Scenes/scene_004.unity
-    guid: cbf99f95faabe4c61b02810fe9076156
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
     path: Assets/Scenes/scene_003.unity
-    guid: 88dee2caf210944999775bec7c9d8598
-  - enabled: 0
-    path: Assets/Scenes/scene_005.unity
-    guid: d764ff47e469a4550b34e82d33438fa2
-  - enabled: 0
-    path: Assets/Scenes/scene_006.unity
-    guid: 7ddb8af327666455da10ddd4e53d0623
-  - enabled: 0
-    path: Assets/Scenes/scene_007.unity
-    guid: fa18968d1952e4521a024a65783cd053
-  - enabled: 0
-    path: Assets/Scenes/scene_008.unity
-    guid: 6bca25e62145d4ab7922bb58b1132ae4
-  - enabled: 0
-    path: Assets/Scenes/scene_009.unity
-    guid: 75023e50d6a2947c4a5868890ba6dd54
-  - enabled: 0
-    path: Assets/Scenes/scene_010.unity
-    guid: bd24db1af5c1e4e9b8a8e45459193458
-  - enabled: 0
-    path: Assets/Scenes/scene_011.unity
-    guid: 4fc38a584a4034ad5a03f4a77e33c1dc
+    guid: 6d63983b54b0843dcbf9f92698514ca9
+  m_configObjects: {}

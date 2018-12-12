@@ -62,6 +62,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 96c6ee632fa304220998e17916a140af, type: 2}
   m_StaticBatchInfo:
@@ -182,7 +183,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 533.8281
+        x: 949.8281
         y: 182.48438
         width: 100
         height: 32
@@ -259,7 +260,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 503.1953
+        x: 919.1953
         y: 438.40625
         width: 100
         height: 32
@@ -336,7 +337,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 348.9453
+        x: 764.9453
         y: 267.0625
         width: 128
         height: 32
@@ -400,7 +401,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 296.33594
+        x: 712.33594
         y: 395.5078
         width: 140
         height: 32
@@ -464,7 +465,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 109.09375
+        x: 525.09375
         y: 284.125
         width: 136.5
         height: 48
@@ -575,7 +576,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 288.0078
+        x: 704.0078
         y: 481.8828
         width: 140
         height: 32
@@ -639,7 +640,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 365.89844
+        x: 781.89844
         y: 138.35156
         width: 140
         height: 32
@@ -703,7 +704,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 78.46094
+        x: 494.46094
         y: 111.203125
         width: 172.5
         height: 32
@@ -808,7 +809,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 61.765625
+        x: 477.76562
         y: 515.39844
         width: 154
         height: 32
@@ -908,6 +909,232 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000000000000000000
         paramByteDataSize: 00000000000000000000000001000000
+    - name: Server/Client check
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 57.640625
+        y: 288.64844
+        width: 174.5
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: event_server_camera_set
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Server Camera Set
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: event_client_camera_set
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Client Camera Set
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.NetworkIsServer
+        - HutongGames.PlayMaker.Actions.NetworkIsClient
+        customNames:
+        - 
+        - Network Is Client
+        actionEnabled: 0100
+        actionIsOpen: 0100
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 5234820152348201
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - event_server_camera_set
+        - event_client_camera_set
+        - 
+        - 
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 110000001700000017000000110000001700000017000000
+        paramName:
+        - isServer
+        - isServerEvent
+        - isNotServerEvent
+        - isClient
+        - isClientEvent
+        - isNotClientEvent
+        paramDataPos: 000000000000000001000000010000000200000003000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000
+    - name: Server Camera Set
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 290.625
+        y: 231.07812
+        width: 132.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 3
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.CutToCamera
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 58bc6203
+        unityObjectParams:
+        - {fileID: 20515753371881414, guid: b5b3fa85c01474580b2069f5272b899f, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 050000000100000001000000
+        paramName:
+        - camera
+        - makeMainCamera
+        - cutBackOnExit
+        paramDataPos: 000000000000000001000000
+        paramByteDataSize: 000000000100000001000000
+    - name: Client Camera Set
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 291.7422
+        y: 344.64062
+        width: 130
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 3
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.CutToCamera
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 58bc6203
+        unityObjectParams:
+        - {fileID: 20693053989143378, guid: 554ed903af40f4b6aa787f3552978d6a, type: 2}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 050000000100000001000000
+        paramName:
+        - camera
+        - makeMainCamera
+        - cutBackOnExit
+        paramDataPos: 000000000000000001000000
+        paramByteDataSize: 000000000100000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -924,12 +1151,18 @@ MonoBehaviour:
     - name: MOUSE UP
       isSystemEvent: 1
       isGlobal: 0
+    - name: event_client_camera_set
+      isSystemEvent: 0
+      isGlobal: 0
     - name: event_mouseDown
       isSystemEvent: 0
       isGlobal: 1
     - name: event_mouseUp
       isSystemEvent: 0
       isGlobal: 1
+    - name: event_server_camera_set
+      isSystemEvent: 0
+      isGlobal: 0
     globalTransitions: []
     variables:
       floatVariables: []
@@ -959,7 +1192,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
