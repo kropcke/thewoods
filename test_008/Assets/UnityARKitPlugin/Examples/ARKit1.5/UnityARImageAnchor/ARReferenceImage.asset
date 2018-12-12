@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: ARReferenceImage
   m_EditorClassIdentifier: 
   imageName: Target Image
-  imageTexture: {fileID: 0}
+  imageTexture: {fileID: 2800000, guid: 7623d0c49e25a41139b08b7d6f89d95c, type: 3}
   physicalSize: 1
