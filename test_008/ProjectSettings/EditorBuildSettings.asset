@@ -53,4 +53,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/AR_test_scene_001.unity
     guid: 655fdf0bc13644077b7d214912d47837
+  - enabled: 0
+    path: Assets/UnityARKitPlugin/ARKitRemote/UnityARKitRemote.unity
+    guid: 3ed73c0c9d4b76a418a0541c0cefd3ac
+  - enabled: 0
+    path: Assets/UnityARKitPlugin/Examples/UnityARShadows/UnityARShadows.unity
+    guid: 14d17ec7304f440b48e6b953ba7a5895
   m_configObjects: {}
