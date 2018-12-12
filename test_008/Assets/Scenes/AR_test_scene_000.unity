@@ -518,7 +518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b2be1c5634b84e8080b2a2491eca344, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  referenceImage: {fileID: 11400000, guid: fa9c5deee83494083beea0977b5302c2, type: 2}
+  referenceImage: {fileID: 11400000, guid: a22a9dd55689d4962acffa0f0ce1dbda, type: 2}
   prefabToGenerate: {fileID: 1483093577405612, guid: 9c8a1fc58df6b4d8c8c68e2883659c8a,
     type: 2}
 --- !u!4 &1034233764
