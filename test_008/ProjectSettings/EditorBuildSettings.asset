@@ -41,18 +41,18 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/scene_003.unity
     guid: 6d63983b54b0843dcbf9f92698514ca9
   - enabled: 0
     path: Assets/UnityARKitPlugin/Examples/ARKit1.5/UnityARImageAnchor/UnityARImageAnchor.unity
     guid: befc06ba4fe0046439ef5dac5a33c0e7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AR_test_scene_000.unity
     guid: d43ac40a6d409468085118b4955fa0cd
   - enabled: 0
-    path: Assets/Scenes/AR_test_scene_001.unity
-    guid: 655fdf0bc13644077b7d214912d47837
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/UnityARKitPlugin/ARKitRemote/UnityARKitRemote.unity
     guid: 3ed73c0c9d4b76a418a0541c0cefd3ac

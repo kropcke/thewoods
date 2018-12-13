@@ -5,9 +5,11 @@ using HutongGames.PlayMaker;
 public class MouseDownYes : NetworkBehaviour
 {
 
+    public Camera cam;
+
     void Start()
     {
-        
+
     }
 
 	[ClientCallback]
@@ -31,6 +33,12 @@ public class MouseDownYes : NetworkBehaviour
     //working, but only by clicking on full screen
 	void Update()
     {
+
+        if (isServer)
+        {
+            cam.enabled = false;
+            return;
+        }
             
         if (Input.GetMouseButtonDown(0))
 
