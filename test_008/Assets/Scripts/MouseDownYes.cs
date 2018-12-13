@@ -5,7 +5,10 @@ using HutongGames.PlayMaker;
 public class MouseDownYes : NetworkBehaviour
 {
 
-    public Camera cam;
+    //public Camera cam;
+    //public GameObject cam_server;
+    //public GameObject cam_client;
+
 
     void Start()
     {
@@ -14,31 +17,21 @@ public class MouseDownYes : NetworkBehaviour
 
 	[ClientCallback]
 
-    //working, but only on one of the clients, not both
-    /*void OnMouseDown()
-	{
-        MouseDownTrue();
-        RpcMouseDownYes();
-        CmdMouseDownYes();
-    }
-
-    void OnMouseUp()
-    {
-        MouseDownFalse();
-        RpcMouseDownNo();
-        CmdMouseDownNo();
-    }*/
-
-
     //working, but only by clicking on full screen
 	void Update()
     {
 
-        if (isServer)
-        {
-            cam.enabled = false;
-            return;
-        }
+        //if (isServer)
+        //{
+        //    cam_server.SetActive = false;
+        //    return;
+        //}
+
+        //if (isServer)
+        //{
+        //    cam_server.enabled = false;
+        //    return;
+        //}
             
         if (Input.GetMouseButtonDown(0))
 
@@ -113,3 +106,19 @@ public class MouseDownYes : NetworkBehaviour
     }
 
 }
+
+
+//working, but only on one of the clients, not both
+/*void OnMouseDown()
+{
+    MouseDownTrue();
+    RpcMouseDownYes();
+    CmdMouseDownYes();
+}
+
+void OnMouseUp()
+{
+    MouseDownFalse();
+    RpcMouseDownNo();
+    CmdMouseDownNo();
+}*/

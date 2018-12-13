@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class camera_logic : NetworkBehaviour {
 
-    public Camera cam;
+    public GameObject cam_server;
+    public GameObject cam_client;
 
 	// Use this for initialization
 	void Start () {
@@ -17,9 +18,15 @@ public class camera_logic : NetworkBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (!isLocalPlayer)
+        if (isServer)
         {
-            cam.enabled = false;
+            cam_client.SetActive(false);
+            return;
+        }
+
+        if (!isServer)
+        {
+            cam_server.SetActive(false);
             return;
         }
 		
