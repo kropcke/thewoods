@@ -41,7 +41,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/scene_003.unity
     guid: 6d63983b54b0843dcbf9f92698514ca9
   - enabled: 0
@@ -59,4 +59,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/UnityARKitPlugin/Examples/UnityARShadows/UnityARShadows.unity
     guid: 14d17ec7304f440b48e6b953ba7a5895
+  - enabled: 0
+    path: Assets/Scenes/AR_test_scene_000_camera.unity
+    guid: 04df0da1029794e429fa30537f6adc47
+  - enabled: 0
+    path: Assets/Scenes/AR_test_scene_001_camera.unity
+    guid: 5c9365fcefedd4c5a8e4530ad526cd5e
+  - enabled: 0
+    path: Assets/Scenes/AR_test_scene_002_camera.unity
+    guid: f91b496943120436fb52ea2a1707c891
+  - enabled: 1
+    path: Assets/Scenes/AR_test_scene_003_camera.unity
+    guid: 5b9e9ff5554f4468fb43b94bdfd96874
   m_configObjects: {}
