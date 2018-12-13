@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a05d13af004de054a9c4d5b264262d0d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: USER,FCOLOR_MULTIPLIERS,FMAINTEX_NOTILE,FBUMP,FSPECULAR,FSPEC_LEGACY,FEMISSION_TEXTURE,FEMISSION,FEMISSION_COLOR,FEMISSION_COLOR_HDR,FALPHA,FMASK_MAINTEX,KSHADER_TARGET:3.0,KEMISSION_MASK:mainTex,KEMISSION_MASK_CHANNEL:.a,chBAD8065B,cSM:30,cCF:TCP2_ShaderTemplate_Default
+  assetBundleName: 
+  assetBundleVariant: 
