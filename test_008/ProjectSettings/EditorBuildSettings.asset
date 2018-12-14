@@ -71,7 +71,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/AR_test_scene_003_camera.unity
     guid: 5b9e9ff5554f4468fb43b94bdfd96874
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AR_test_scene_005_camera.unity
     guid: 0866bba3b677f4c56955b0844b140069
+  - enabled: 1
+    path: Assets/Scenes/AR_test_scene_006_camera.unity
+    guid: 308cba580f2934ef59f8958490854e6d
   m_configObjects: {}
