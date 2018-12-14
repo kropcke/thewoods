@@ -81,6 +81,9 @@ EditorBuildSettings:
     path: Assets/Scenes/AR_test_scene_006_camera.unity
     guid: 308cba580f2934ef59f8958490854e6d
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 29b8340... changed server camera to be fully on the square that reacts to button presses
+=======
 >>>>>>> parent of 29b8340... changed server camera to be fully on the square that reacts to button presses
 =======
 >>>>>>> parent of 29b8340... changed server camera to be fully on the square that reacts to button presses
